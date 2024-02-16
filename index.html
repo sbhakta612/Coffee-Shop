@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Land</title>
+
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-title">Coffee Land</div>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#products">products</a>
+
+        <a href="#contact"> contact</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <span class="quantity">0</span>
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+      <div class="card">
+        <h1>Cart</h1>
+
+        <ul class="listCard"></ul>
+        <div class="checkOut">
+          <div class="total">0</div>
+          <div class="closeShopping">Close</div>
+        </div>
+      </div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Brewed to be good</h3>
+
+        <a href="#" class="btn"> get yours now </a>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="row">
+        <div class="about-image">
+          <img src="./images/about-coffee.jpg" alt="coffee cup" />
+        </div>
+        <div class="content">
+          <h3>What makes our coffee special?</h3>
+          <p>
+            At Coffee Land, we embark on a journey fueled by our love for the
+            finest coffee beans and the art of brewing. Our story is steeped in
+            dedication to delivering an exceptional coffee experience, from the
+            moment the beans are handpicked to the rich aroma that fills your
+            cup. As a team of coffee enthusiasts, we take pride in sourcing the
+            highest quality beans from around the world and meticulously
+            roasting them to perfection. Our commitment extends beyond just a
+            cup of coffee; it's about creating a community of coffee lovers who
+            appreciate the nuances of each blend. Join us in celebrating the
+            essence of Coffee Land – where every sip tells a story of
+            craftsmanship and a love for the brew. Cheers to the perfect cup!
+          </p>
+          <a href="#" class="btn">learn more</a>
+        </div>
+      </div>
+    </section>
+    <section class="products" id="products">
+      <h3>Our Products</h3>
+      <div class="box-container">
+        <div class="box" data-name="House Blend 1" data-price="20">
+          <div class="image">
+            <img src="images/coffee1.jpg" width="200" height="300" alt="" />
+          </div>
+          <div class="content">
+            <h1>House Blend 1</h1>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$20</div>
+            <div class="icons">
+              <a href="#products" class="fas fa-shopping-cart"></a>
+            </div>
+          </div>
+        </div>
+        <div class="box" data-name="House Blend 2" data-price="30">
+          <div class="image">
+            <img src="images/coffee2.jpg" width="200" height="300" alt="" />
+          </div>
+          <div class="content">
+            <h1>House Blend 2</h1>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$30</div>
+            <div class="icons">
+              <a href="#products" class="fas fa-shopping-cart"></a>
+            </div>
+          </div>
+        </div>
+        <div class="box" data-name="House Blend 3" data-price="15">
+          <div class="image">
+            <img src="images/coffee3.jpg" width="200" height="300" alt="" />
+          </div>
+          <div class="content">
+            <h1>House Blend 3</h1>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$15</div>
+            <div class="icons">
+              <a href="#products" class="fas fa-shopping-cart"></a>
+            </div>
+          </div>
+        </div>
+        <div class="box" data-name="House Blend 4" data-price="30">
+          <div class="image">
+            <img src="images/coffee4.jpg" width="200" height="300" alt="" />
+          </div>
+          <div class="content">
+            <h1>House Blend 4</h1>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$30</div>
+            <div class="icons">
+              <a href="#products" class="fas fa-shopping-cart"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h3>Get in touch</h3>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.0248066467!2d-74.30865358829368!3d40.697541901176066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sde!4v1708028229277!5m2!1sen!2sde"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+        <form action="">
+          <div class="inputBox">
+            <input type="text" placeholder="name" />
+          </div>
+          <div class="inputBox">
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="inputBox">
+            <input type="text" placeholder="Write your message here..." />
+          </div>
+          <input type="submit" value="contact us" class="btn" />
+        </form>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="share"><a href="#" class="fab fa-facebook-f"></a></div>
+      <div class="share"><a href="#" class="fab fa-twitter"></a></div>
+      <div class="share"><a href="#" class="fab fa-instagram"></a></div>
+    </section>
+    <script src="/script.js"></script>
+  </body>
+</html>
